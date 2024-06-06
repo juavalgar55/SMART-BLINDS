@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  -->
+<web-app >
+	<display-name>asd</display-name>
+	<servlet>
+		<servlet-name>ServletActuador</servlet-name>
+		<servlet-class>ventilador.code.ServletActuador</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ServletSensor</servlet-name>
+		<servlet-class>ventilador.code.ServletSensor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ServletActuador</servlet-name>
+		<url-pattern>/ServletActuador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ServletSensor</servlet-name>
+		<url-pattern>/ServletSensor</url-pattern>
+	</servlet-mapping>
+</web-app>
